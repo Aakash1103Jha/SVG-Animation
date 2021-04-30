@@ -1,0 +1,10 @@
+<!-- This is the moon svg that is used in the project -->
+
+<svg width="48"
+     height="95"
+     viewBox="0 0 48 95"
+     fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+        <path d= "M26.5 47.5C26.5 73.7335 47.5 95 47.5 95C21.2665 95 0 73.7335 0 47.5C0 21.2665 21.2665 0 47.5 0C47.5 0 26.5 21.2665 26.5 47.5Z"
+              fill="#FAAC38"/>
+</svg>

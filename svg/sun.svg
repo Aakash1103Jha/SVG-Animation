@@ -1,0 +1,10 @@
+<!-- This is the sun svg that is used in the project -->
+
+<svg id='sun'
+        width="95"
+        height="95"
+        viewBox="0 0 95 95"
+        fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d= "M95 47.5C95 73.7335 73.7335 95 47.5 95C21.2665 95 0 73.7335 0 47.5C0 21.2665 21.2665 0 47.5 0C73.7335 0 95 21.2665 95 47.5Z" 
+                fill="#FAAC38"/>
+</svg>

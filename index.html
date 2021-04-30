@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='./style.scss' rel='stylesheet' type='text/css' />
+    <title>SVG Animation</title>
+</head>
+<body>
+    <main>
+        <section class="animation">
+            <svg id='sun'
+                 width="95"
+                 height="95"
+                 viewBox="0 0 95 95"
+                 fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d= "M95 47.5C95 73.7335 73.7335 95 47.5 95C21.2665 95 0 73.7335 0 47.5C0 21.2665 21.2665 0 47.5 0C73.7335 0 95 21.2665 95 47.5Z" 
+                          fill="#FAAC38"
+                          id='sun-path'/>
+            </svg>    
+        </section>
+    </main>    
+
+    <!-- anime.min.js library for svg animations  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+            integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+            crossorigin="anonymous">
+    </script>
+    <!-- Script file for animations using anime.js -->
+    <script src='./index.js'></script>
+</body>
+</html>
