@@ -15,6 +15,7 @@ svgIcon.addEventListener('click', () => {
     const tl = anime.timeline({
         duration: 750,
         easeing: 'easeOutExpo',
+	
     });
 
     // morph: sun => moon
